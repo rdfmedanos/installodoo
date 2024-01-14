@@ -78,6 +78,8 @@ sudo add-apt-repository universe
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y git
+# vim YO
+sudo apt-get install -y vim
 
 # Update and install Postgresql
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
